@@ -1,0 +1,26 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="utf-8">
+</head>
+<style>
+  body * {
+    margin: 10px;
+    border: 1px solid blue;
+  }
+</style>
+<body>
+<form onclick="alert('form')">FORM
+  <div onclick="alert('div 1')">DIV 1
+    <p onclick="alert('p 1 ')">P 1</p>
+	<p onclick="alert('p 2')">P 2</p>
+  </div>
+  <div onchange="alert('div 2')">DIV 2
+	<p onclick="alert('p 3')">P 3</p>
+	<p onclick="alert('p 4')">P 4</p>
+  </div>
+</form>
+</body>
+<!-- event.stopPropagation() -->
+<div align="center"><img src="arvore.bmp"></div>
+</html>
